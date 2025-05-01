@@ -338,9 +338,11 @@ a.navbar-brand img {
     background-size: auto;
 }
   .image2 {
-    position: absolute;
-    left: 90px;
+    position: absolute;    
     bottom: 0;
+}
+#top-banner-img2{
+ left: 90px;   
 }
 .image1 {
   position: relative;
