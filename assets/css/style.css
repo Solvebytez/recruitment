@@ -322,7 +322,7 @@ a.navbar-brand img {
   .call-us-btn:hover .icon {
     background: #0445e7;
   }
-   .hero {
+    .hero {
     display: flex
 ;
     align-items: center;
@@ -337,16 +337,17 @@ a.navbar-brand img {
     background-repeat: no-repeat;
     background-size: auto;
 }
-  .image2 {
-    position: absolute;    
-    bottom: 0;
+#top-banner-img2 {
+  left: 90px;
 }
-#top-banner-img2{
- left: 90px;   
+
+.image2 {
+  position: absolute;
+  bottom: 0;
 }
+
 .image1 {
-  position: relative;
-  height: 500px;
+  position: relative; 
   text-align: end;
 }
 
@@ -408,13 +409,13 @@ a.navbar-brand img {
     overflow: hidden;
     overflow-x: hidden;
   }
-span.rounded-pill {
+  span.rounded-pill {
     width: 364px;
     height: 209px;
     background: #ffbe16;
     opacity: 0.6;
     filter: blur(53.6px);
-    bottom: -44px;
+    bottom: 56px;
     right: 0px;
 }
 
@@ -437,6 +438,33 @@ span.rounded-pill {
   /*=======================================
   0.3 about-section
   ========================================*/
+
+  div#counter-image2 {
+    right: 0;
+    /* position: absolute; */
+  }
+  .image3.animate3 {
+    position: absolute;
+    top: 40px;
+    right: 60px;
+  }
+  @keyframes animate3 {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-15px);
+    }
+  }
+  
+  .animate3 {
+    position: relative;
+    animation-name: animate3;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+  }
 
 
 .counter-item {
