@@ -451,12 +451,12 @@ a.navbar-brand img {
 /*===========================================
 0. hiring-section
 =========================================*/
-.services-box
-{
+.services-box{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  background:#fff;
 }
 
 .service
