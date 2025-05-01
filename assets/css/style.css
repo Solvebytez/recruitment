@@ -406,13 +406,13 @@ a.navbar-brand img {
     overflow: hidden;
     overflow-x: hidden;
   }
-  span.rounded-pill {
+span.rounded-pill {
     width: 364px;
     height: 209px;
     background: #ffbe16;
     opacity: 0.6;
     filter: blur(53.6px);
-    bottom: 56px;
+    bottom: -44px;
     right: 0px;
 }
 
