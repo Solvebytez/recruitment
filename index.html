@@ -130,43 +130,66 @@
     </header>
     <!--header-section-End-->
     <!--main-banner-section-Start-->
-    <section class="hero">
-      <div class="banner-shape position-absolute top-50 translate-middle-y z-0">
-        <img alt="banner-shape" loading="lazy" width="314" height="715" decoding="async" data-nimg="1"
-          style="color:transparent" src="./assets/img/banner-shape-2.webp">
+    <section class="hero position-relative">
+      <div class="banner-shape position-absolute top-50 start-0 translate-middle-y z-0">
+        <img 
+          alt="banner-shape" 
+          loading="lazy" 
+          width="314" 
+          height="715" 
+          decoding="async" 
+          style="color:transparent; max-width: 100%; height: auto;" 
+          src="./assets/img/banner-shape-2.webp">
       </div>
+    
       <div class="container">
-        <div class="row">
-          <div class="hero-text col-lg-5 align-self-center">
+        <div class="row align-items-center">
+          <!-- Left Text Content -->
+          <div class="hero-text col-12 col-lg-5 text-center text-lg-start mb-4 mb-lg-0">
             <h1 class="ml14">
               <span class="text-wrapper">
-                <span class="letters">Right Fit Solution </span>
+                <span class="letters">Right&nbsp;Fit&nbsp;Solution</span>
                 <span class="line"></span>
               </span>
             </h1>
-            <p>Building intelligent solutions for a connected future. Let's shape the world together.</p>
-            <!-- <div class="buttons">
-                            <a href="#" class="btn-primary">Read More</a>
-                            <a href="#" class="btn-secondary">Play Now</a>
-                        </div>-->
+            <p>
+              Building intelligent solutions for a connected future. Let's shape the world together.
+            </p>
+            <!-- Uncomment for buttons -->
+            <!--
+            <div class="buttons mt-3">
+              <a href="#" class="btn-primary me-2">Read More</a>
+              <a href="#" class="btn-secondary">Play Now</a>
+            </div>
+            -->
           </div>
-          <div class="hero-image col-lg-7 align-self-center">
+    
+          <!-- Right Image Content -->
+          <div class="hero-image col-12 col-lg-7">
             <div class="banner-image" data-aos="fade-left" data-aos-duration="800">
-              <div class="image1" style="height: 500px;">
-                <img decoding="async" src="https://recrute.fleexstudio.com/wp-content/uploads/2024/12/hero6-img1.png"
-                  alt="">
+              <div class="image1 mb-3" style="max-height: 523px; overflow: hidden; position: relative;
+    text-align: end;">
+                <img 
+                  decoding="async" 
+                  src="https://recrute.fleexstudio.com/wp-content/uploads/2024/12/hero6-img1.png" 
+                  alt="" 
+                  class="img-fluid h-auto">
               </div>
               <div class="image2" id="top-banner-img2">
-                <img decoding="async" src="https://recrute.fleexstudio.com/wp-content/uploads/2024/12/hero6-img2.png" alt="">
+                <img 
+                  decoding="async" 
+                  src="https://recrute.fleexstudio.com/wp-content/uploads/2024/12/hero6-img2.png" 
+                  alt="" 
+                  class="img-fluid w-100 h-auto">
               </div>
             </div>
-
-
           </div>
         </div>
       </div>
+    
       <span class="d-none d-lg-block custom-shadown position-absolute rounded-pill"></span>
     </section>
+    
 
 
     <!--main-banner-section-End-->
@@ -352,11 +375,11 @@
         </section>
 
        contact-section-end-->
-    <!--Why-we work -section-start-->
+    <!--Why-we work -section-start
     <section class="ep-features-section pt-120 pb-120 overflow-hidden position-relative">
       <div class="container">
         <div class="row align-items-center gy-5">
-          <!-- Left Image Side -->
+          <!-- Left Image Side 
           <div class="col-lg-6 position-relative">
             <div class="feature-img position-relative">
               <div class="img-1 rounded-20 reveal left position-relative"
@@ -371,7 +394,7 @@
             </div>
           </div>
 
-          <!-- Right Content Side -->
+          <!-- Right Content Side 
           <div class="col-lg-6">
             <div class="feature-text ps-lg-4">
               <h6 class="section-sub-title position-relative d-inline-block text-success fw-bold text-uppercase mb-2"
@@ -388,7 +411,7 @@
               </h2>
 
 
-              <!-- Feature Item 1 -->
+              <!-- Feature Item 1
               <div class="d-flex align-items-start mb-4" data-aos="fade-up" data-aos-duration="800" data-aos-delay="0">
                 <div
                   class="suporting icon-box bg-success text-white rounded-3 d-flex justify-content-center align-items-center me-3"
@@ -402,7 +425,7 @@
                 </div>
               </div>
 
-              <!-- Feature Item 2 -->
+              <!-- Feature Item 2 
               <div class="d-flex align-items-start mb-4" data-aos="fade-up" data-aos-duration="800"
                 data-aos-delay="300">
                 <div
@@ -416,7 +439,7 @@
                 </div>
               </div>
 
-              <!-- Feature Item 3 -->
+              <!-- Feature Item 3
               <div class="d-flex align-items-start" data-aos="fade-up" data-aos-duration="800" data-aos-delay="600">
                 <div
                   class="suporting icon-box bg-success text-white rounded-3 d-flex justify-content-center align-items-center me-3"
@@ -432,329 +455,362 @@
           </div>
         </div>
       </div>
+    </section>-->
+
+    <section id="how-it-works-section" class="py-5">
+      <div class="container">
+        <div class="text-center mb-5">
+          <!-- Section Label -->
+          <div class="section-label d-inline-flex align-items-center mb-2 animate3">
+            <span class="text-uppercase fw-bold small text-success fs-4">Why Work with us</span>
+          </div>
+
+          <!-- Section Title -->
+          <div class="container">
+            <div class="why-title-animation">
+              <h2 class="ml14 lh-sme pb-5 text-center" style="opacity: 1;">
+                <span class="text-wrapper">
+                  <span class="letters fw-bold fs-5 bottom-title lh-sme">
+                    <!-- You can replace this dynamically populated letter animation block with the full string -->
+                    Fastest Turnaround Time for Relevant CV’s.
+                    <br>
+                    <small>(Within 24hrs the relevant CV’s are sourced by the Right Fit</small><br>
+                    Solution sourcing team for any given positions.)
+                  </span>
+                </span>
+              </h2>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="row g-4">
+          <!-- Box 1 -->
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="recruit-box">
+              <div class="recruit-step">
+                <img src="https://recrute.fleexstudio.com/wp-content/uploads/2024/12/work6-bg1.png" alt="">
+              </div>
+              <div class="recruit-img text-center position-relative">
+                <img src="./assets/img/timer.jpeg" width="230" height="350" alt="Applicant"
+                  class="img-fluid">
+
+              </div>
+              <div class="recruit-content text-center">
+                <!--<h6>APPLICANT REVIEW</h6>-->
+                <p> Fastest Turn Around Time  for relevant  CV's. ( Within 24hrs the relevant CV's are sourced by the Right Fit Solution sourcing team  for any given positions.)
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- Box 2 -->
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="recruit-box">
+              <div class="recruit-step">
+                <img src="https://recrute.fleexstudio.com/wp-content/uploads/2024/12/work6-bg1.png" alt="">
+              </div>
+              <div class="recruit-img text-center position-relative">
+                <img src="./assets/img/map.jpg" alt="Applicant"
+                  class="img-fluid">
+
+              </div>
+              <div class="recruit-content text-center">               
+                <p>Currently Hiring for PAN India and covering more than 250+ Cities in India
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Box 3 -->
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="recruit-box">
+              <div class="recruit-step">
+                <img src="https://recrute.fleexstudio.com/wp-content/uploads/2024/12/work6-bg1.png" alt="">
+              </div>
+              <div class="recruit-img text-center position-relative">
+                <img src="./assets/img/Recruiters.avif" alt="Applicant"
+                  class="img-fluid">
+
+              </div>
+              <div class="recruit-content text-center">               
+                <p>Recruiters who are  having relevant experience in hiring for similar industry are only assigned with ongoing positions for sourcing relevant CV’s</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="recruit-box">
+              <div class="recruit-step">
+                <img src="https://recrute.fleexstudio.com/wp-content/uploads/2024/12/work6-bg1.png" alt="">
+              </div>
+              <div class="recruit-img text-center position-relative">
+                <img src="./assets/img/Experienced.jpg" alt="Applicant"
+                  class="img-fluid">
+
+              </div>
+              <div class="recruit-content text-center">                
+                <p>Rich Experienced Recruitment team for volume hiring. </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
     </section>
 
 
     <!--why-we-work-section-end-->
+
+
     <!--hiring-industries-section-start-->
     <div class="services-box pt-120 pb-120">
+      <div class="section-label d-inline-flex align-items-center mb-3 animate3">
+        <span class="text-uppercase fw-bold small text-success text-center fs-3">Hiring Experience in industries </span>
+      </div>
       <div class="container">
+        
         <div class="row">
-          <div class="col-lg-4 col-md-6">
-            <div class="service">
-              <div class="flip-box">
-                <div class="flip-box-inner">
-                  <div class="flip-box-front">
-                    <img src="https://i.ibb.co/KXXzgvm/greeting-card.png">
-                    <h2>Front Side</h2>
-                  </div>
-                  <div class="flip-box-back">
-                    <p>We provide unique gifting ideas & products that will have a long-lasting impact on customers.</p>
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="custom-card">
+              <div class="card-img-overlay-content">
+                <img src="./assets/img/Infrastructure1.avif" alt="Card Image">
+                <div class="overlay">
+                  <div class="overlay-content">
+                    <h5>Infrastructure</h5>                    
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="service">
-              <div class="flip-box">
-                <div class="flip-box-inner">
-                  <div class="flip-box-front">
-                    <img src="https://i.ibb.co/KXXzgvm/greeting-card.png">
-                    <h2>Front Side</h2>
-                  </div>
-                  <div class="flip-box-back">
-                    <p>We provide unique gifting ideas & products that will have a long-lasting impact on customers.</p>
+          </div>  
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="custom-card">
+              <div class="card-img-overlay-content">
+                <img src="./assets/img/Manufacturing.jpg" alt="Card Image">
+                <div class="overlay">
+                  <div class="overlay-content">
+                    <h5>Manufacturing</h5>                    
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="service">
-              <div class="flip-box">
-                <div class="flip-box-inner">
-                  <div class="flip-box-front">
-                    <img src="https://i.ibb.co/KXXzgvm/greeting-card.png">
-                    <h2>Front Side</h2>
-                  </div>
-                  <div class="flip-box-back">
-                    <p>We provide unique gifting ideas & products that will have a long-lasting impact on customers.</p>
+          </div> 
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="custom-card">
+              <div class="card-img-overlay-content">
+                <img src="./assets/img/fmcg.jpg" alt="Card Image">
+                <div class="overlay">
+                  <div class="overlay-content">
+                    <h5>FMCG</h5>                    
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="service">
-              <div class="flip-box">
-                <div class="flip-box-inner">
-                  <div class="flip-box-front">
-                    <img src="https://i.ibb.co/KXXzgvm/greeting-card.png">
-                    <h2>Front Side</h2>
-                  </div>
-                  <div class="flip-box-back">
-                    <p>We provide unique gifting ideas & products that will have a long-lasting impact on customers.</p>
+          </div> 
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="custom-card">
+              <div class="card-img-overlay-content">
+                <img src="./assets/img/Food Processing.avif" alt="Card Image">
+                <div class="overlay">
+                  <div class="overlay-content">
+                    <h5>Food Processing</h5>                    
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="service">
-              <div class="flip-box">
-                <div class="flip-box-inner">
-                  <div class="flip-box-front">
-                    <img src="https://i.ibb.co/KXXzgvm/greeting-card.png">
-                    <h2>Front Side</h2>
-                  </div>
-                  <div class="flip-box-back">
-                    <p>We provide unique gifting ideas & products that will have a long-lasting impact on customers.</p>
+          </div> 
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="custom-card">
+              <div class="card-img-overlay-content">
+                <img src="./assets/img/Dairy & Beverages.avif" alt="Card Image">
+                <div class="overlay">
+                  <div class="overlay-content">
+                    <h5>Dairy & Beverages</h5>                    
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="service">
-              <div class="flip-box">
-                <div class="flip-box-inner">
-                  <div class="flip-box-front">
-                    <img src="https://i.ibb.co/KXXzgvm/greeting-card.png">
-                    <h2>Front Side</h2>
-                  </div>
-                  <div class="flip-box-back">
-                    <p>We provide unique gifting ideas & products that will have a long-lasting impact on customers.</p>
+          </div> 
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="custom-card">
+              <div class="card-img-overlay-content">
+                <img src="./assets/img/reatail.avif" alt="Card Image">
+                <div class="overlay">
+                  <div class="overlay-content">
+                    <h5>Retail</h5>                    
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="service">
-              <div class="flip-box">
-                <div class="flip-box-inner">
-                  <div class="flip-box-front">
-                    <img src="https://i.ibb.co/KXXzgvm/greeting-card.png">
-                    <h2>Front Side</h2>
-                  </div>
-                  <div class="flip-box-back">
-                    <p>We provide unique gifting ideas & products that will have a long-lasting impact on customers.</p>
+          </div> 
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="custom-card">
+              <div class="card-img-overlay-content">
+                <img src="./assets/img/Pharmaceutical.avif" alt="Card Image">
+                <div class="overlay">
+                  <div class="overlay-content">
+                    <h5>Pharmaceutical</h5>                    
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="service">
-              <div class="flip-box">
-                <div class="flip-box-inner">
-                  <div class="flip-box-front">
-                    <img src="https://i.ibb.co/KXXzgvm/greeting-card.png">
-                    <h2>Front Side</h2>
-                  </div>
-                  <div class="flip-box-back">
-                    <p>We provide unique gifting ideas & products that will have a long-lasting impact on customers.</p>
+          </div> 
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="custom-card">
+              <div class="card-img-overlay-content">
+                <img src="./assets/img/Real Estate.avif" alt="Card Image">
+                <div class="overlay">
+                  <div class="overlay-content">
+                    <h5>Real Estate</h5>                    
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="service">
-              <div class="flip-box">
-                <div class="flip-box-inner">
-                  <div class="flip-box-front">
-                    <img src="https://i.ibb.co/KXXzgvm/greeting-card.png">
-                    <h2>Front Side</h2>
-                  </div>
-                  <div class="flip-box-back">
-                    <p>We provide unique gifting ideas & products that will have a long-lasting impact on customers.</p>
+          </div> 
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="custom-card">
+              <div class="card-img-overlay-content">
+                <img src="./assets/img/Engineering.jpg" alt="Card Image">
+                <div class="overlay">
+                  <div class="overlay-content">
+                    <h5>Engineering</h5>                    
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="service">
-              <div class="flip-box">
-                <div class="flip-box-inner">
-                  <div class="flip-box-front">
-                    <img src="https://i.ibb.co/KXXzgvm/greeting-card.png">
-                    <h2>Front Side</h2>
-                  </div>
-                  <div class="flip-box-back">
-                    <p>We provide unique gifting ideas & products that will have a long-lasting impact on customers.</p>
+          </div> 
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="custom-card">
+              <div class="card-img-overlay-content">
+                <img src="./assets/img/Chemicals.jpg" alt="Card Image">
+                <div class="overlay">
+                  <div class="overlay-content">
+                    <h5> Chemicals</h5>                    
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="service">
-              <div class="flip-box">
-                <div class="flip-box-inner">
-                  <div class="flip-box-front">
-                    <img src="https://i.ibb.co/KXXzgvm/greeting-card.png">
-                    <h2>Front Side</h2>
-                  </div>
-                  <div class="flip-box-back">
-                    <p>We provide unique gifting ideas & products that will have a long-lasting impact on customers.</p>
+          </div> 
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="custom-card">
+              <div class="card-img-overlay-content">
+                <img src="./assets/img/Agrichemical.avif" alt="Card Image">
+                <div class="overlay">
+                  <div class="overlay-content">
+                    <h5> Agrichemical</h5>                    
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="service">
-              <div class="flip-box">
-                <div class="flip-box-inner">
-                  <div class="flip-box-front">
-                    <img src="https://i.ibb.co/KXXzgvm/greeting-card.png">
-                    <h2>Front Side</h2>
-                  </div>
-                  <div class="flip-box-back">
-                    <p>We provide unique gifting ideas & products that will have a long-lasting impact on customers.</p>
+          </div> 
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="custom-card">
+              <div class="card-img-overlay-content">
+                <img src="./assets/img/Biotech.avif" alt="Card Image">
+                <div class="overlay">
+                  <div class="overlay-content">
+                    <h5>Biotech</h5>                    
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="service">
-              <div class="flip-box">
-                <div class="flip-box-inner">
-                  <div class="flip-box-front">
-                    <img src="https://i.ibb.co/KXXzgvm/greeting-card.png">
-                    <h2>Front Side</h2>
-                  </div>
-                  <div class="flip-box-back">
-                    <p>We provide unique gifting ideas & products that will have a long-lasting impact on customers.</p>
+          </div> 
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="custom-card">
+              <div class="card-img-overlay-content">
+                <img src="./assets/img/Oil & Gas.jpeg" alt="Card Image">
+                <div class="overlay">
+                  <div class="overlay-content">
+                    <h5>Oil & Gas</h5>                    
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="service">
-              <div class="flip-box">
-                <div class="flip-box-inner">
-                  <div class="flip-box-front">
-                    <img src="https://i.ibb.co/KXXzgvm/greeting-card.png">
-                    <h2>Front Side</h2>
-                  </div>
-                  <div class="flip-box-back">
-                    <p>We provide unique gifting ideas & products that will have a long-lasting impact on customers.</p>
+          </div> 
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="custom-card">
+              <div class="card-img-overlay-content">
+                <img src="./assets/img/Power.jpeg" alt="Card Image">
+                <div class="overlay">
+                  <div class="overlay-content">
+                    <h5>Power</h5>                    
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="service">
-              <div class="flip-box">
-                <div class="flip-box-inner">
-                  <div class="flip-box-front">
-                    <img src="https://i.ibb.co/KXXzgvm/greeting-card.png">
-                    <h2>Front Side</h2>
-                  </div>
-                  <div class="flip-box-back">
-                    <p>We provide unique gifting ideas & products that will have a long-lasting impact on customers.</p>
+          </div> 
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="custom-card">
+              <div class="card-img-overlay-content">
+                <img src="./assets/img/Industrial Automation .avif" alt="Card Image">
+                <div class="overlay">
+                  <div class="overlay-content">
+                    <h5>Industrial Automation</h5>                    
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="service">
-              <div class="flip-box">
-                <div class="flip-box-inner">
-                  <div class="flip-box-front">
-                    <img src="https://i.ibb.co/KXXzgvm/greeting-card.png">
-                    <h2>Front Side</h2>
-                  </div>
-                  <div class="flip-box-back">
-                    <p>We provide unique gifting ideas & products that will have a long-lasting impact on customers.</p>
+          </div> 
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="custom-card">
+              <div class="card-img-overlay-content">
+                <img src="./assets/img/bank.jpg" alt="Card Image">
+                <div class="overlay">
+                  <div class="overlay-content">
+                    <h5>Banking</h5>                    
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="service">
-              <div class="flip-box">
-                <div class="flip-box-inner">
-                  <div class="flip-box-front">
-                    <img src="https://i.ibb.co/KXXzgvm/greeting-card.png">
-                    <h2>Front Side</h2>
-                  </div>
-                  <div class="flip-box-back">
-                    <p>We provide unique gifting ideas & products that will have a long-lasting impact on customers.</p>
+          </div> 
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="custom-card">
+              <div class="card-img-overlay-content">
+                <img src="./assets/img/NBFC.jpg" alt="Card Image">
+                <div class="overlay">
+                  <div class="overlay-content">
+                    <h5>NBFC  </h5>                    
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="service">
-              <div class="flip-box">
-                <div class="flip-box-inner">
-                  <div class="flip-box-front">
-                    <img src="https://i.ibb.co/KXXzgvm/greeting-card.png">
-                    <h2>Front Side</h2>
-                  </div>
-                  <div class="flip-box-back">
-                    <p>We provide unique gifting ideas & products that will have a long-lasting impact on customers.</p>
+          </div> 
+          <div class="col-lg-3 col-md-6">
+            <div class="custom-card">
+              <div class="card-img-overlay-content">
+                <img src="./assets/img/Logistic.avif" alt="Card Image">
+                <div class="overlay">
+                  <div class="overlay-content">
+                    <h5>Logistic</h5>                    
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="service">
-              <div class="flip-box">
-                <div class="flip-box-inner">
-                  <div class="flip-box-front">
-                    <img src="https://i.ibb.co/KXXzgvm/greeting-card.png">
-                    <h2>Front Side</h2>
-                  </div>
-                  <div class="flip-box-back">
-                    <p>We provide unique gifting ideas & products that will have a long-lasting impact on customers.</p>
+          </div> 
+          <div class="col-lg-3 col-md-6">
+            <div class="custom-card">
+              <div class="card-img-overlay-content">
+                <img src="./assets/img/shippings.avif" alt="Card Image">
+                <div class="overlay">
+                  <div class="overlay-content">
+                    <h5>Shipping</h5>                    
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="service">
-              <div class="flip-box">
-                <div class="flip-box-inner">
-                  <div class="flip-box-front">
-                    <img src="https://i.ibb.co/KXXzgvm/greeting-card.png">
-                    <h2>Front Side</h2>
-                  </div>
-                  <div class="flip-box-back">
-                    <p>We provide unique gifting ideas & products that will have a long-lasting impact on customers.</p>
+          </div> 
+          <div class="col-lg-3 col-md-6">
+            <div class="custom-card">
+              <div class="card-img-overlay-content">
+                <img src="./assets/img/IT & Technology.jpeg" alt="Card Image">
+                <div class="overlay">
+                  <div class="overlay-content">
+                    <h5>IT & Technology</h5>                    
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="service">
-              <div class="flip-box">
-                <div class="flip-box-inner">
-                  <div class="flip-box-front">
-                    <img src="https://i.ibb.co/KXXzgvm/greeting-card.png">
-                    <h2>Front Side</h2>
-                  </div>
-                  <div class="flip-box-back">
-                    <p>We provide unique gifting ideas & products that will have a long-lasting impact on customers.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          </div> 
 
         </div>
       </div>
@@ -852,7 +908,7 @@
 
 
           <!-- Recent Posts -->
-          <div class="col-xl-5 col-lg-2 col-md-6">
+          <div class="col-xl-5 col-lg-4 col-md-6">
             <div class="ratio ratio-4x3 rounded overflow-hidden shadow-sm">
               <iframe
                 src="https://www.google.com/maps?q=Indian+Chamber+of+Commerce,+India+Exchange+Place,+Kolkata-700001&amp;output=embed"
