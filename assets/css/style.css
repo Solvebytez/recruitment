@@ -288,7 +288,7 @@ a.navbar-brand img {
   }
   
   .menu-list ul li a:hover {
-    color: #0445e7;
+    color: #f79119;
   }
   
   .submenu {
@@ -306,9 +306,12 @@ a.navbar-brand img {
     text-decoration: none;
     color: #000;
   }
+ .call-us.info:hover{
+    background: #f79119;
+  }
   
   .call-us-btn .icon {
-    background: #000;
+    background: #0f5132;
     width: 45px;
     height: 45px;
     border-radius: 50%;
@@ -320,7 +323,7 @@ a.navbar-brand img {
   }
   
   .call-us-btn:hover .icon {
-    background: #0445e7;
+    background: #f79119;
   }
     .hero {
     display: flex
@@ -973,7 +976,7 @@ textarea#message {
   border-radius: 60px;
   z-index: 1;
   border: 0;
-  background-color: #0445e7;
+  background-color: #1b543a;
   color: #ffffff;
   position: relative;
   overflow: hidden;
