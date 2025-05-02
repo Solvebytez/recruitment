@@ -615,6 +615,9 @@ section#how-it-works-section {
   .image1.mb-3{
     width: 100% !important;
   }
+     .hero-text h1{
+    font-size: 34px;
+  }
 }
 
 
