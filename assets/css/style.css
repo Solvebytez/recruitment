@@ -189,15 +189,15 @@ a.navbar-brand img {
   
   .mobile-topbar {
     background-color: #fff;
-    padding: 10px 20px;
+    /*padding: 10px 20px;*/
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
   @media(max-width: 1199.98px) {
     .mobile-topbar {
-        background-color:#f1f6fc;
-        padding: 10px 25px;
+        background-color:#fff;
+        /*padding: 10px 25px;*/
         border-radius: 50px;
         transition: all 0.3s ease-out 0s;
     }
