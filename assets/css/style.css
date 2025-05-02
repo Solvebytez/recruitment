@@ -677,8 +677,7 @@ section#how-it-works-section {
   background-position: 50%;
 }
 .rounded {
-  border-radius: .25rem !important;
-  width: 520px !important;
+  border-radius: .25rem !important;  
   height: 215px;
 }
 ul.list-unstyled.small li a {
@@ -777,7 +776,6 @@ p.small {
   transform: scaleX(1);
   opacity: 1;
 }
-
 /*====================================
 0. video-section
 ===================================*/
