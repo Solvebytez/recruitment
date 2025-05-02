@@ -331,7 +331,7 @@ a.navbar-brand img {
     align-items: center;
     justify-content: space-between;
     padding: 80px 50px;
-    min-height: calc(100vh - 80px);
+   /* min-height: calc(100vh - 80px);*/
     padding-top: 113px;
     padding-bottom: 17px;
     background-color: #ffffff;
