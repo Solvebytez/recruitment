@@ -619,6 +619,11 @@ section#how-it-works-section {
     font-size: 34px;
   }
 }
+@media (max-width: 340px) {
+    .hero-text h1 {
+        font-size: 25px;
+    }
+}
 
 
 
