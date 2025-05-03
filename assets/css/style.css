@@ -1073,6 +1073,29 @@ textarea#message {
 .lh-sme {
   line-height: 21px !important;
 }
+.common-hero {
+  background-image: url('../img/contact-banner.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.common-hero .hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(9 60 37 / 70%);
+  z-index: 0;
+}
+
+.common-hero .container {
+  position: relative;
+  z-index: 1;
+}
 
 
 
