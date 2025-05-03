@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+  <!-- AOS CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="main-section">
+    <header class="ep-header-section w-100" id="sticky-header">
+        <nav class="navbar p-0 navbar-expand-xl d-none d-xl-flex">
+          <div class="container header-one-container">
+            <a class="navbar-brand" href="#">
+              <img alt="logo" width="172" decoding="async" data-nimg="1" style="color:transparent"
+                src="./assets/img/footer-logo.png"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mx-auto mb-lg-0">
+                <li class="nav-item"><a class="nav-link" aria-current="page" href="#">Home </a>
+  
+                </li>
+                <li class="nav-item"><a class="nav-link" href="index.html#about-us">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="index.html#services">Service</a></li>
+                <!--<li class="nav-item"><a class="nav-link" href="#">Services <i class="fas fa-chevron-down"></i></a>
+                  <ul class="sub-menu list-unstyled">
+                    <li><a href="/services">Service Single</a></li>
+                    <li><a href="/service-details">Service Details</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="#">Projects <i class="fas fa-chevron-down"></i></a>
+                  <ul class="sub-menu list-unstyled">
+                    <li><a href="/projects">Project Single</a></li>
+                    <li><a href="/project-details">Project Details</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="#">Blog <i class="fas fa-chevron-down"></i></a>
+                  <ul class="sub-menu list-unstyled">
+                    <li><a href="/blog">Blog Single</a></li>
+                    <li><a href="/blog-details">Blog Details</a></li>
+                  </ul>
+                </li>-->
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+              </ul>
+              <div class="call-us"><a href="tel:+1234567890" class="call-us-btn d-flex align-items-center gap-3"><span
+                    class="icon d-flex justify-content-center align-items-center"><i class="fa-solid fa-phone"></i></span>
+                  <div class="info"><span class="title">Need help?</span>
+                    <h5 class="numbers">+123 456 7890</h5>
+                  </div>
+                </a></div>
+            </div>
+          </div>
+        </nav>
+        <div class="mobile-menu-area d-block d-xl-none">
+          <div class="container">
+            <div class="mobile-topbar">
+              <div class="d-flex justify-content-between align-items-center w-100">
+                <div class="logo">
+                  <a href="index.html"><img src="/_next/static/media/logo.d08ed97d.svg" alt="logo" width="172" height="58" /></a>
+                </div>
+                <div class="bars"><i class="fas fa-bars"></i></div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="mobile-menu-overlay"></div>
+  
+          <div class="mobile-menu-main">
+            <div class="logo">
+              <a href="index.html"><img src="/_next/static/media/logo.d08ed97d.svg" alt="logo" width="172" height="58" /></a>
+            </div>
+            <div class="close-mobile-menu"><i class="fas fa-times"></i></div>
+  
+            <div class="menu-body">
+              <div class="menu-list">
+                <ul class="list-unstyled">
+                  <li class="sub-mobile-menu">
+                    <a href="#">Home </a>
+                  </li>
+                  <li class="sub-mobile-menu"><a href="#about-us">About</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#services">Service</a></li>
+                  <!--<li class="sub-mobile-menu">
+                    <a href="#">Services <i class="fas fa-chevron-down float-end"></i></a>
+                    <ul class="submenu">
+                      <li><a href="/services">Service Single</a></li>
+                      <li><a href="/service-details">Service Details</a></li>
+                    </ul>
+                  </li>
+                  <li class="sub-mobile-menu">
+                    <a href="#">Projects <i class="fas fa-chevron-down float-end"></i></a>
+                    <ul class="submenu">
+                      <li><a href="/projects">Project Single</a></li>
+                      <li><a href="/project-details">Project Details</a></li>
+                    </ul>
+                  </li>
+                  <li class="sub-mobile-menu">
+                    <a href="#">Blog <i class="fas fa-chevron-down float-end"></i></a>
+                    <ul class="submenu">
+                      <li><a href="/blog">Blog Single</a></li>
+                      <li><a href="/blog-details">Blog Details</a></li>
+                    </ul>
+                  </li>-->
+                  <li class="sub-mobile-menu"><a href="#contact">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+  
+            <div class="call-us p-4">
+              <a href="tel:+1234567890" class="call-us-btn d-flex align-items-center gap-3">
+                <span class="icon d-flex justify-content-center align-items-center"><i
+                    class="fa-solid fa-phone"></i></span>
+                <div class="info">
+                  <span class="title">Need help?</span>
+                  <h5 class="number">+123 456 7890</h5>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+  
+      </header>
+    <!--header-section-End-->
+    <!--main-banner-section-Start-->
+    <section class="hero position-relative">
+      <div class="banner-shape position-absolute top-50 start-0 translate-middle-y z-0">
+        <img 
+          alt="banner-shape" 
+          loading="lazy" 
+          width="314" 
+          height="715" 
+          decoding="async" 
+          style="color:transparent; max-width: 100%; height: auto;" 
+          src="./assets/img/banner-shape-2.webp">
+      </div>
+    
+      <div class="container">
+        <div class="row align-items-center">
+          <!-- Left Text Content -->
+          <div class="hero-text col-12 col-lg-5 text-center text-lg-start mb-4 mb-lg-0">
+            <h1 class="ml14">
+              <span class="text-wrapper">
+                <span class="letters">Right&nbsp;Fit&nbsp;Solution</span>
+                <span class="line"></span>
+              </span>
+            </h1>
+            <p>
+              Building intelligent solutions for a connected future. Let's shape the world together.
+            </p>
+            <!-- Uncomment for buttons -->
+            <!--
+            <div class="buttons mt-3">
+              <a href="#" class="btn-primary me-2">Read More</a>
+              <a href="#" class="btn-secondary">Play Now</a>
+            </div>
+            -->
+          </div>
+    
+          <!-- Right Image Content -->
+          <div class="hero-image col-12 col-lg-7">
+            <div class="banner-image" data-aos="fade-left" data-aos-duration="800">
+              <div class="image1 mb-3" style="max-height: 523px; overflow: hidden; position: relative;
+    text-align: end;">
+                <img 
+                  decoding="async" 
+                  src="https://recrute.fleexstudio.com/wp-content/uploads/2024/12/hero6-img1.png" 
+                  alt="" 
+                  class="img-fluid h-auto">
+              </div>
+              <div class="image2" id="top-banner-img2">
+                <img 
+                  decoding="async" 
+                  src="https://recrute.fleexstudio.com/wp-content/uploads/2024/12/hero6-img2.png" 
+                  alt="" 
+                  class="img-fluid w-100 h-auto">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <span class="d-none d-lg-block custom-shadown position-absolute rounded-pill"></span>
+    </section>
+    
+
+
+    <!--main-banner-section-End-->
+
+    
+    <!--contact-section-start-->
+        <section class="pt-120 pb-120 bg-light" id="contact">
+            <div class="container">
+                <div class="row align-items-center">
+                    <!--Left Column: Contact Form-->
+                    <div class="col-lg-6 mb-4 mb-lg-0">
+                        <div class="mb-4">
+                            <h6 class="section-sub-title position-relative d-inline-block text-uppercase">Talk to us
+                            </h6>
+                            <h2 class="ml14">
+                                <span class="text-wrapper">
+                                    <span class="letters fs-4 fw-bold">Shaping the Future with Technology </span>
+                                    <span class="line"></span>
+                                </span>
+                            </h2>
+
+                        </div>
+                        <form action="#" class="needs-validation" novalidate>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label for="name" class="form-label">Your Name</label>
+                                    <input type="text" class="form-control form-field" id="name"
+                                        placeholder="Adnan Walker" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="email" class="form-label">Your Email</label>
+                                    <input type="email" class="form-control form-field" id="email"
+                                        placeholder="info.example@gmail.com" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="phone" class="form-label">Your Number</label>
+                                    <input type="tel" class="form-control form-field" id="phone"
+                                        placeholder="+088123456789" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="area" class="form-label">Your Area</label>
+                                    <select class="form-select form-field" id="area" required>
+                                        <option selected disabled value="">Choose...</option>
+                                        <option>New York City</option>
+                                        <option>Los Angeles</option>
+                                        <option>Chicago</option>
+                                        <option>Houston</option>
+                                    </select>
+                                </div>
+                                <div class="col-12">
+                                    <label for="message" class="form-label">Your Message</label>
+                                    <textarea class="form-control form-field" id="message" rows="4"
+                                        placeholder="Message here..." required></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="theme-btn px-4 position-relative overflow-hidden">Send
+                                        Now</button>
+
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                    <!--Right Column: Image-->
+                    <div class="col-lg-6 text-center">
+                        <div class="message-image overflow-hidden position-relative bottom-0 end-0">
+                            <img src="./assets/img/message-img.webp" alt="message-image" loading="lazy" width="915"
+                                height="855" decoding="async" class="img-fluid w-100 zoom-out-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+       <!--contact-section-end-->
+   
+
+
+   
+    <!--footer-section-start-->
+    <footer class="pt-5 footer-bg">
+      <div class="container">
+        <div class="row gy-4">
+
+          <!-- Short Info Boxes -->
+          <div class="col-md-4 d-flex align-items-center">
+            <div class="d-flex align-items-center bg-box-trans p-3 rounded shadow-sm w-100">
+              <div class="me-3">
+                <img src="/_next/static/media/footer-short-icon-1.9c4fa06d.svg" alt="Icon" width="45" height="45">
+              </div>
+              <div>
+                <h5 class="mb-1 info-box">recruitment Solutions</h5>
+                <p class="mb-0 small">Lorem ipsum dolor sit, amet consectetur</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 d-flex align-items-center">
+            <div class="d-flex align-items-center bg-box-trans p-3 rounded shadow-sm w-100">
+              <div class="me-3">
+                <img src="/_next/static/media/footer-short-icon-2.ef8b1900.svg" alt="Icon" width="45" height="45">
+              </div>
+              <div>
+                <h5 class="mb-1 info-box">recruitment Solutions</h5>
+                <p class="mb-0 small">Lorem ipsum dolor sit, amet consectetur</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 d-flex align-items-center">
+            <div class="d-flex align-items-center bg-box-trans p-3 rounded shadow-sm w-100">
+              <div class="me-3">
+                <img src="/_next/static/media/footer-short-icon-3.e04bda4c.svg" alt="Icon" width="45" height="45">
+              </div>
+              <div>
+                <h5 class="mb-1 info-box">recruitment Solutions</h5>
+                <p class="mb-0 small">Lorem ipsum dolor sit, amet consectetur</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <hr class="my-5">
+
+        <!-- Main Footer Content -->
+        <div class="row gy-4">
+
+          <!-- About Section -->
+          <div class="col-xl-4 col-lg-3 col-md-6">
+            <div>
+              <a href="#" class="d-inline-block">
+                <img src="./assets/img/footer-logo.png" alt="Logo" width="172" height="170">
+              </a>
+              <p class="small" id="about-p">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Exercitationem volup</p>
+              <ul class="list-unstyled small mt-3">
+                <li class="mb-2 d-flex align-items-center">
+                  <i class="fas fa-map-marker-alt me-2"></i> 24657 innovation within the IT sector,
+                </li>
+                <li class="d-flex align-items-center">
+                  <i class="fas fa-envelope me-2"></i>
+                  <a href="mailto:curtis.weaver@example.com" class="text-decoration-none">curtis.wver@example.com</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Services Links -->
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <h5 class="footer-title">Link</h5>
+            <ul class="list-unstyled small">
+              <li><a href="/services" class="text-decoration-none"><i class="fas fa-chevron-right me-2"></i> InfoSec
+                  Experts</a></li>
+              <li><a href="/services" class="text-decoration-none"><i class="fas fa-chevron-right me-2"></i> Quantum IT
+                  Solutions</a></li>
+              <li><a href="/services" class="text-decoration-none"><i class="fas fa-chevron-right me-2"></i> NexusTech
+                  Systems</a></li>
+              <li><a href="/services" class="text-decoration-none"><i class="fas fa-chevron-right me-2"></i> SmartNet IT
+                  Services</a></li>
+              <li><a href="/services" class="text-decoration-none"><i class="fas fa-chevron-right me-2"></i> ByteForce
+                  Solutions</a></li>
+            </ul>
+          </div>
+
+          <!-- Quick Links -->
+
+
+          <!-- Recent Posts -->
+          <div class="col-xl-5 col-lg-4 col-md-6">
+            <div class="ratio ratio-4x3 rounded overflow-hidden shadow-sm">
+              <iframe
+                src="https://www.google.com/maps?q=Indian+Chamber+of+Commerce,+India+Exchange+Place,+Kolkata-700001&amp;output=embed"
+                style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
+            </div>
+          </div>
+        </div>
+
+        <hr class="my-5">
+
+        <!-- Footer Bottom -->
+        <div class="row gy-2 align-items-center">
+          <div class="col-lg-6 text-center text-lg-start">
+            <small>© Yoursitename 2024 | All Rights Reserved</small>
+          </div>
+          <div class="col-lg-6 text-center text-lg-end">
+            <ul class="list-inline mb-0 small">
+              <li class="list-inline-item"><a href="#" class="text-decoration-none">Terms & Conditions</a>
+              </li>
+              <li class="list-inline-item"><a href="#" class="text-decoration-none">Privacy Policy</a>
+              </li>
+              <li class="list-inline-item"><a href="/contact" class="text-decoration-none">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </footer>
+
+    <!--footer-section-end-->
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./assets/js/header.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  <!-- AOS JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+  <script>
+    AOS.init({
+      duration: 800, // animation duration (in ms)
+      once: true,    // animation only once or every scroll
+    });
+  </script>
+  <script>
+    // Function to apply animation to a specific heading
+    function animateTextEffect(element) {
+      element.innerHTML = element.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+      anime.timeline()
+        .add({
+          targets: element.closest('.ml14').querySelector('.line'),
+          scaleX: [0, 1],
+          opacity: [0.5, 1],
+          easing: "easeInOutExpo",
+          duration: 900
+        }).add({
+          targets: element.querySelectorAll('.letter'),
+          opacity: [0, 1],
+          translateX: [40, 0],
+          translateZ: 0,
+          scaleX: [0.3, 1],
+          easing: "easeOutExpo",
+          duration: 800,
+          offset: '-=600',
+          delay: (el, i) => 150 + 25 * i
+        }).add({
+          targets: element.closest('.ml14'),
+          opacity: 1,
+          duration: 1000,
+          easing: "easeOutExpo",
+          delay: 1000
+        });
+    }
+
+    // Animate the h1 element immediately
+    const h1 = document.querySelector('h1.ml14 .letters');
+    if (h1) animateTextEffect(h1);
+
+    // Set up IntersectionObserver for all h2 elements
+    const h2Elements = document.querySelectorAll('h2.ml14 .letters');
+
+    const observer = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          animateTextEffect(entry.target);
+          observer.unobserve(entry.target); // Stop observing once animated
+        }
+      });
+    }, { threshold: 0.5 });
+
+    // Observe each h2 element
+    h2Elements.forEach(h2 => observer.observe(h2));
+  </script>
+
+
+
+
+
+
+</body>
+
+</html>
