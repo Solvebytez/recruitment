@@ -629,6 +629,11 @@ section#how-it-works-section {
     .image3.animate3{
         
     }
+    div#counter-image2 img {    
+    width: 100%;
+    max-width: 54%;
+}
+    
 }
 
 
