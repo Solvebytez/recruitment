@@ -562,12 +562,14 @@ section#how-it-works-section {
   z-index: 2;
 }
 .recruit-content {
-  background: #fff;
-  margin-top: 65px;
-  padding: 15px;
-  border-radius: 6px;
-  font-weight: bold;
-  transition: transform 0.3s ease, background 0.3s ease, color 0.3s ease;
+    background: #fff;
+    margin-top: 41px;
+    padding: 15px;
+    font-size: 13px;
+    font-weight: 400;
+    border-radius: 6px;
+    /* font-weight: bold; */
+    transition: transform 0.3s ease, background 0.3s ease, color 0.3s ease;
 }
 
 .recruit-box:hover .recruit-content {
