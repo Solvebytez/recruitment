@@ -721,6 +721,11 @@ ul.list-unstyled.small li a:hover{
   margin-left: 6px;
   opacity: 1;
 }
+ul.list-unstyled {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+}
 h5.footer-title {
   font-size: 22px;
   font-weight: 700;
