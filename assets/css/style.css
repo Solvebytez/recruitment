@@ -862,7 +862,13 @@ p.small {
 }
 
 /* Play Icon Style */
+color.dual-heading span {
+    color: #0f5132;
+}
 
+color.dual-heading {
+    color: #f79119;
+}
 
 /* Waves Animation */
 .waves-block {
