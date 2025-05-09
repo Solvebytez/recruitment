@@ -21,16 +21,22 @@ document.addEventListener('DOMContentLoaded', function() {
     mobileOverlay.classList.remove('active');
   });
 
-  subMenus.forEach(menu => {
+   subMenus.forEach(menu => {
     menu.addEventListener('click', function(e) {
-      e.preventDefault();
       const submenu = this.nextElementSibling;
-      if (submenu.classList.contains('open')) {
-        submenu.classList.remove('open');
-      } else {
-        document.querySelectorAll('.submenu').forEach(sm => sm.classList.remove('open'));
-        submenu.classList.add('open');
+  
+      if (submenu && submenu.classList.contains('submenu')) {
+        // Only prevent default if submenu exists
+        e.preventDefault();
+  
+        if (submenu.classList.contains('open')) {
+          submenu.classList.remove('open');
+        } else {
+          document.querySelectorAll('.submenu').forEach(sm => sm.classList.remove('open'));
+          submenu.classList.add('open');
+        }
       }
+      // Else: it's a regular link like "Contact", let it redirect
     });
   });
 
